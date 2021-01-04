@@ -11,6 +11,7 @@ import os
 import time
 import webbrowser
 import datetime
+import wikipedia
 
 
 flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint)
