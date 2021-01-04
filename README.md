@@ -9,7 +9,7 @@ To install these libraries open powershell window or command prompt and install 
 2. pyttsx3 (pip install pyttsx3)
 3. speech recoginition (pip install speech recoginition)
 4. wikipidea (pip install wikipedia)
-5.PyAudio(pip install PyAudio)
+5. PyAudio(pip install PyAudio)
 6. os,time,webbrowser,datetime (pre installed)
 
  How to use the Assistant:-
