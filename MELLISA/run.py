@@ -12,6 +12,7 @@ import time
 import webbrowser
 import datetime
 import wikipedia
+import operator
 
 
 flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint)
@@ -47,7 +48,7 @@ class mainT(QThread):
         R = sr.Recognizer()
         with sr.Microphone() as source:
             print("Listening...........")
-            audio = R.listen(source)
+            audio = R.record(source,duration=3)
         try:
             print("Recognizing......")
             text = R.recognize_google(audio,language='en-in')
