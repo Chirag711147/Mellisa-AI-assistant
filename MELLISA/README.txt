@@ -1,11 +1,6 @@
-                                                                                                             VOICE ASSISTANT MELLISA
+                                                                       VOICE ASSISTANT MELLISA
 
-This project is made possible by the joint efforts of our team members:-
-1. Vaibhav Sharma (20BCS4184)
-2. Chirag (20BCS4238)
-3. Varini Malhotra (20BCS4235)
-4. Ansh Goyal (20BCS4174)
-5. Shagun Maheshwari  (20BCS4162)
+
 
 Link to downlaod the Assistant:-
 https://github.com/Chirag711147/Mellisa-AI-assistant
