@@ -89,7 +89,7 @@ class mainT(QThread):
 
             elif 'open codeblocks' in self.query:
                 speak("opening codeblocks for you...")
-                codeblocksPath = "C:\\Users\\VAIBHAV SHARMA\\Desktop\\Programing\\CodeBlocks\\codeblocks.exe"
+                codeblocksPath = "C:\\Users\\Chirag\\Desktop\\Programing\\CodeBlocks\\codeblocks.exe"
                 os.startfile(codeblocksPath)
 
             elif 'open Chandigarh university managemnet system' in self.query:
@@ -143,7 +143,7 @@ class mainT(QThread):
                 try:
                     speak("What should I say?")
                     content = takeCommand()
-                    to = "yovaibhav43@gmail.com"    
+                    to = "chirag@gmail.com"    
                     sendEmail(to, content)
                     speak("Email has been sent!")
                 except Exception as e:
